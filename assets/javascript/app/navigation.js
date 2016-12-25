@@ -25,6 +25,19 @@ $("#btn-account-edit").click(function() {
     hideAllWindowsShowOne("wdw-account-edit");
 });
 
+$("#btn-billing-edit").click(function() {
+    hideAllWindowsShowOne("wdw-billing-edit");
+});
+
+$("#btn-settings-edit").click(function() {
+    hideAllWindowsShowOne("wdw-settings-edit");
+});
+
+$("#btn-session-edit").click(function() {
+    hideAllWindowsShowOne("wdw-session-edit");
+});
+
+
 function hideAllWindowsShowOne(sWindowId) {
         $(".wdw").fadeOut(500);
         $("#"+ sWindowId).fadeIn(500);

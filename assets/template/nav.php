@@ -375,7 +375,7 @@
                             <a href="../apps/profile-edit.html">Settings</a>
                         </li>
                         <li>
-                            <a href="../apps/faq.html">Faq</a>
+                            <a href="#">Faq</a>
                         </li>
                         <li role="separator" class="divider"></li>
                         <li>

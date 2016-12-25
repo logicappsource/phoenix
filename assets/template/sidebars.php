@@ -17,18 +17,18 @@
         <ul class="side-menu m-t-2">
             <li class="Dashboards">
                 <a href="#" title="Dashboards">
-                    <i class="fa  fa-folder-open-o fa-lg fa-fw"></i><span class="nav-label">Folder</span><i class="fa arrow"></i>
+                    <i class="fa  fa-folder-open-o fa-lg fa-fw"></i><span class="nav-label">Menu</span><i class="fa arrow"></i>
                 </a>
                 <ul>
-                    <li class='active'>
-                        <a href="#"><span class="nav-label">Starter HTML/CSS</span>
+                    <li class='active' id="btn-main">
+                        <a href="#"><span class="nav-label">Main</span>
                         </a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a href="#" title="Page">
-                    <i class="fa fa-lg fa-file-o fa-fw"></i><span class="nav-label">Page</span>
+                    <i id="btn-P" class="fa fa-lg fa-file-o fa-fw"></i><span class="nav-label">Page</span>
                     <span class="pull-right label label-primary label-outline text-uppercase">New</span>
                 </a>
             </li>

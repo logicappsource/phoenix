@@ -368,18 +368,18 @@
                             <strong class="text-uppercase">Account</strong>
                         </li>
                         <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="../apps/profile-details.html">Your Profile</a>
+                        <li id="btn-profile">
+                            <a href="#">Your Profile</a>
                         </li>
-                        <li>
-                            <a href="../apps/profile-edit.html">Settings</a>
+                        <li id="btn-edit-profile">
+                            <a href="#">Edit-Profile</a>
                         </li>
-                        <li>
+                        <li id="btn-faq">
                             <a href="#">Faq</a>
                         </li>
                         <li role="separator" class="divider"></li>
                         <li>
-                            <a href="../pages/login.html">Sign Out</a>
+                            <a href="#">Sign Out</a>
                         </li>
                     </ul>
                 </li>

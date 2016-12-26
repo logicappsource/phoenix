@@ -15,6 +15,7 @@
 
 <!-- Scripts developed Logicappsource--> 
 <script type="text/javascript" src="./assets/javascript/app/navigation.js"></script>
+   <script src="./assets/javascript/login.js"></script>
 
 </body>
 

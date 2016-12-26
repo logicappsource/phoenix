@@ -1,0 +1,47 @@
+[
+    {
+        "userName": "Palle",
+        "userEmail": "p@gmail.com",
+        "userPassword": "jackpot",
+        "userId": 0,
+        "userBalance": 10000,
+        "userIcon": "https:\/\/encrypted-tbn3.gstatic.com\/images?q=tbn:ANd9GcTwLWjh2BVPvdi3Gd6XdcpzOp7XLSHnS_DZrpbhyB8JANpluR9vkg",
+        "staminapoints": 5,
+        "verified":0,
+        "joinedteams": "team1",
+        "userFirstName":"pa",
+        "userLastName":"sahlgren",
+        "userProfileTxt":"PRofile text"
+
+    },
+    {
+        "userName": "Pa",
+        "userEmail": "2@gmail.com",
+        "userPassword": "jackpot",
+        "userId": 1,
+        "userBalance": 10000,
+        "userIcon": "https:\/\/encrypted-tbn3.gstatic.com\/images?q=tbn:ANd9GcTwLWjh2BVPvdi3Gd6XdcpzOp7XLSHnS_DZrpbhyB8JANpluR9vkg",
+        "staminapoints": 55,
+        "verified":0,
+        "joinedteams": "team1",
+        "userFirstName":"pa",
+        "userLastName":"sahlgren",
+        "userProfileTxt":"tedfsdfdsfsdfds"
+    },
+    {
+        "userName": "P",
+        "userEmail": "3@gmail.com",
+        "userPassword": "jackpot",
+        "userId": 2,
+        "userBalance": 234234,
+        "userIcon": "https:\/\/encrypted-tbn3.gstatic.com\/images?q=tbn:ANd9GcTwLWjh2BVPvdi3Gd6XdcpzOp7XLSHnS_DZrpbhyB8JANpluR9vkg",
+        "staminapoints": 555,
+        "verified":0,
+        "joinedteams": "team1",
+         "userFirstName":"pa",
+        "userLastName":"sahlgren",
+        "userProfileTxt":"tedfsdfdsfsdfds"
+    }
+
+    
+] 

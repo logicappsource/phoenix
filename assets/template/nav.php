@@ -358,7 +358,9 @@
 
                 <li class="dropdown">
                     <a class="dropdown-toggle user-dropdown" data-toggle="dropdown" href="javascript: void(0)" role="button">
-                        <span class="m-r-1">Kraig Schuster</span>
+                        <span class="m-r-1">Kraig Schuster <?php if (isset($_GET['userName'])) {
+			  $requestedUsername = $_GET['userName'];
+			}?></span>
                         <div class="avatar avatar-image avatar-sm avatar-inline loaded">
                             <img alt="User" src="https://s3.amazonaws.com/uifaces/faces/twitter/collegeman/128.jpg">
                         </div>
@@ -378,7 +380,7 @@
                             <a href="#">Faq</a>
                         </li>
                         <li role="separator" class="divider"></li>
-                        <li>
+                        <li id="btn-logout">
                             <a href="#">Sign Out</a>
                         </li>
                     </ul>

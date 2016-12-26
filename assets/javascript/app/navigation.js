@@ -1,6 +1,7 @@
 //Hide all wdw on load
 $(document).ready(function () {
     $(".wdw").hide(); 
+    $("#wdw-login").show();
 });
 
 
@@ -37,6 +38,10 @@ $("#btn-session-edit").click(function() {
     hideAllWindowsShowOne("wdw-session-edit");
 });
 
+
+$("#btn-logout").click(function() {
+    hideAllWindowsShowOne("wdw-logout");
+});
 
 function hideAllWindowsShowOne(sWindowId) {
         $(".wdw").fadeOut(500);

@@ -17,11 +17,14 @@
     </style>
     <!--END Loader-->
 
+    <link rel="stylesheet" href="assets/stylesheets/login.css"> 
+
     <!-- SCSS Output -->
     <!-- build:css assets/stylesheets/app.min.css -->
     <link rel="stylesheet" href="assets/stylesheets/bootstrap.css">
     <link rel="stylesheet" href="assets/stylesheets/app.css">
     <link rel="stylesheet" href="assets/stylesheets/plugins.css">
+    
     <!-- endbuild -->
 
     <!-- START Favicon -->
@@ -45,6 +48,9 @@
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 
     <!-- Google Analytics -->
     <script>

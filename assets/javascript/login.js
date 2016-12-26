@@ -15,19 +15,28 @@
           snd.play();
       }
 
+        function globalData () {
+       //Username 
+      var sUsername = globalUser.userName; 
+      var newUseNameLbl =  $('#lbl-nav-username').text(sUsername);
+      var newUseNameLbls =  $('#lbl-username').text(sUsername);
+      //Balance 
+      var sBalance = globalUser.userBalance; 
+      var nBalance = $('#lbl-menu-balance').text(sBalance);
+        
+        }
+
   //CLOSURE - EXECUTE ONCE ->  LOGIN 
   var loginSuccessMessage = (function() {
   var executed = false;
 
     return function () {
       if (!executed) {
-
         executed = true;
         {swal("Phoenix Flying!", "You Successfully loggedin!", "success");}
           PlaySound();
       }
     };
-
   })();
 
 
@@ -42,7 +51,6 @@
           PlaySound();
       }
     };
-
   })();
 
 
@@ -64,7 +72,6 @@
         }).done(function(jUser) { //success 
            
         globalUser = jUser; // only use global variable or local storage
-
         console.log(globalUser);
 
     // make object to string
@@ -75,21 +82,13 @@
 
 
         //ON LOGIN -> USER CHANGES 
-      //Username 
-      var sUsername = globalUser.userName; 
-      var newUseNameLbl =  $('#lbl-nav-username').text(sUsername);
-         var newUseNameLbls =  $('#lbl-username').text(sUsername);
-      //Balance 
-      var sBalance = globalUser.userBalance; 
-      var nBalance = $('#lbl-menu-balance').text(sBalance);
-        console.log(sBalance);
+        globalData();
         
 
         //IF condition to hceck if !null then create
         //$("#loginmodal").show();
         $(".modal-dialog").hide();
         loginSuccessMessage();
-
         });
       });
 

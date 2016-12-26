@@ -15,7 +15,7 @@
           snd.play();
       }
 
-  //CLOSURE - EXECUTE ONCE
+  //CLOSURE - EXECUTE ONCE ->  LOGIN 
   var loginSuccessMessage = (function() {
   var executed = false;
 
@@ -24,6 +24,21 @@
 
         executed = true;
         {swal("Phoenix Flying!", "You Successfully loggedin!", "success");}
+          PlaySound();
+      }
+    };
+
+  })();
+
+
+  //CLOSURE - EXECUTE ONCE  -> Signup 
+  var signUpSuccessMessage = (function() {
+  var executed = false;
+
+    return function () {
+      if (!executed) {
+        executed = true;
+        { swal("The Phoenix greets you!", "You have signed up!", "success" );}
           PlaySound();
       }
     };
@@ -68,11 +83,11 @@
       });
 
 
-/*
-      //Forgotten Password 
+
+   //Forgotten Password 
     $('#btn-forgot-password').on('click', function() {
         var sEmailInput = $('#input-email').val();
-        var sLink2 = "./login/forgot-password.php?emailForgot="+sEmailInput;
+        var sLink2 = "assets/login/forgot-password.php?emailForgot="+sEmailInput;
 
         $.ajax({
           "method":"get",
@@ -81,30 +96,36 @@
           "cache": false
         }).done(function() {
           console.log("Success");
+          //MEssage email sent with sweet alert 
         });
     });
 
 
 
   //Register 
-  
   $('#btn-register').on('click', function(){
     var regUsername = $('#txtusernamereg').val();
     var regPassword = $('#txtpasswordreg').val();
-       var regEmail = $('#txtemailreg').val();
+    var regEmail = $('#txtemailreg').val();
+    var regFirstname = $('#firstnamereg').val(); 
+   // var regLastname  = $('#lastnamereg').val();
 
-    var sLinkReg = "./login/api-add-user.php?userNameReg="+regUsername+"&userPasswordReg="+regPassword+"&userEmailReg="+regEmail;
+    var sLinkReg = "assets/login/api-add-user.php?userNameReg="+regUsername+"&userPasswordReg="+regPassword+"&userEmailReg="+regEmail+"&firstNameReg="+regFirstname;
     $.ajax({
       "method":"get",
       "url":sLinkReg,
       "dataType":"JSON",
       "cache":false 
     }).done(function(jRegUser) {
-
+    
+      //Success
+      signUpSuccessMessage();
+       $(".modal-dialog").hide();
+       console.log(jRegUser);
     });
   });
 
-*/
+
 
 
 

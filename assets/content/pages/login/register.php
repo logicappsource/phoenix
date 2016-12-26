@@ -57,6 +57,8 @@
                             <input class="form-control" placeholder="Enter a Password..." >
                         </div>-->
 
+
+
                         <div class="form-group">
                             <label>Repeat Password</label>
                             <input class="form-control" placeholder="Repeat Password..." id="txtpasswordreg" name="password">
@@ -65,6 +67,16 @@
                             <label>Email</label>
                             <input class="form-control" placeholder="Enter a Email..." name="email" id="txtemailreg">
                         </div>
+                        
+                         <div class="form-group">
+                            <label>First Name</label>
+                            <input class="form-control" placeholder="First Name" id="firstnamereg" name="firstnamereg">
+                        </div>
+                         <div class="form-group">
+                            <label>Last Name</label>
+                            <input class="form-control" placeholder="Last Name" id="lastnamereg" name="lastnamereg">
+                        </div>
+
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox"> <a href="#" id="lbl-terms-privacy"> Accept Terms &amp; Privacy Policy</a>

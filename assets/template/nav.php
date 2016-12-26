@@ -61,7 +61,7 @@
             <!-- START Right Side Navbar -->
             
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Sign Out<i class="m-l-1 fa-lg fa fa-fw fa-sign-out m-r-1"></i></a></li>
+                <li id="btn-signout"><a href="#">Sign Out<i class="m-l-1 fa-lg fa fa-fw fa-sign-out m-r-1"></i></a></li>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">

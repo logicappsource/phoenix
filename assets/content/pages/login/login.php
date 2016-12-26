@@ -1,6 +1,5 @@
 
 
-
 <div class="modal-dialog" id="loginmodal">
   <div class="modal-content">
     <div class="modal-header">

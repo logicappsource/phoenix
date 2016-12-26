@@ -73,9 +73,17 @@
     // save/ update string to local storage
         localStorage.user = localUser;
 
-      //NAv lbl = username 
+
+        //ON LOGIN -> USER CHANGES 
+      //Username 
       var sUsername = globalUser.userName; 
       var newUseNameLbl =  $('#lbl-nav-username').text(sUsername);
+         var newUseNameLbls =  $('#lbl-username').text(sUsername);
+      //Balance 
+      var sBalance = globalUser.userBalance; 
+      var nBalance = $('#lbl-menu-balance').text(sBalance);
+        console.log(sBalance);
+        
 
         //IF condition to hceck if !null then create
         //$("#loginmodal").show();

@@ -14,7 +14,7 @@
                         <i class="avatar-status bg-success avatar-status-bottom"></i>
                     </div>
                     <h5 class="media-heading text-center m-t-2 m-b-0"><span> </span></h5>
-                    <p class="text-center small">Senior Front-end Developer</p>
+                    <div id=""> <p class="text-center small" id="lbl-username"> </p></div>
                 </div>
                 <div class="media-right media-middle">
                     <a href="./profile.php"><!--<i class="fa fa-fw fa-gear text-muted"></i>--></a>

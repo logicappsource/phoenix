@@ -1,5 +1,32 @@
 <!-- START Sidebars -->
 <aside class="navbar-default sidebar">
+<div class="sidebar-container-default sidebar-section">
+            <div class="media">
+                <div class="media-left media-middle">
+                    <a href="javascript: void(0)"> <!--<i class="fa fa-fw fa-power-off text-muted"></i>--></a>
+                </div>
+                <div class="media-body">
+
+                    <div class="avatar avatar-image avatar-lg center-block loaded" id="lbl-profile-pic">
+
+                    <img src="" alt="usericon">  <!--  Imeplemnt userIcon here--> 
+
+                        <i class="avatar-status bg-success avatar-status-bottom"></i>
+                    </div>
+                    <h5 class="media-heading text-center m-t-2 m-b-0"><span> </span></h5>
+                    <p class="text-center small">Senior Front-end Developer</p>
+                </div>
+                <div class="media-right media-middle">
+                    <a href="./profile.php"><!--<i class="fa fa-fw fa-gear text-muted"></i>--></a>
+                </div>
+            </div>
+
+            <p class="text-center m-t-2">
+               
+
+            </p><p class="text-center small m-b-0">Total Balance</p>
+            <h3 class="media-heading f-w-300 text-center m-t-0 m-b-0"> <span id="lbl-menu-balance"> $ 2,456,31</span></h3>
+        </div>
 
     <div class="sidebar-overlay-head">
         <img src="assets/images/spin-logo-inverted.png" alt="Logo" />
@@ -17,11 +44,11 @@
         <ul class="side-menu m-t-2">
             <li class="Dashboards">
                 <a href="#" title="Dashboards">
-                    <i class="fa  fa-folder-open-o fa-lg fa-fw"></i><span class="nav-label">Menu</span><i class="fa arrow"></i>
+                    <i class="fa fa-university"></i><span class="nav-label">Main</span><i class="fa arrow"></i>
                 </a>
                 <ul>
                     <li class='active' id="btn-main">
-                        <a href="#"><span class="nav-label">Main</span>
+                        <a href="#"><span class="nav-label">Home</span>
                         </a>
                     </li>
                 </ul>
@@ -34,7 +61,7 @@
             </li>
             <li>
                 <a href="#" title="Apps">
-                    <i class="fa fa-files-o fa-fw fa-lg"></i><span class="nav-label">Levels</span> <i class="fa arrow"></i>
+                    <i class="fa fa-files-o fa-fw fa-lg"></i><span class="nav-label">Betting</span> <i class="fa arrow"></i>
                 </a>
             <ul>
                 <li>

@@ -7,7 +7,7 @@
           
            <div class="navbar-header">
             <a class="current navbar-brand" href="starter.html">
-                <img alt="Spin Logo Inverted" class="h-20" src="assets/images/spin-logo-inverted-@2X.png">
+                <img alt="Pokerphoenix" class="h-20" src="assets/images/pokerphoenix.png">
             </a>
             <button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
                 <i class="fa fa-fw fa-user text-white"></i>
@@ -358,9 +358,7 @@
 
                 <li class="dropdown">
                     <a class="dropdown-toggle user-dropdown" data-toggle="dropdown" href="javascript: void(0)" role="button">
-                        <span class="m-r-1">Kraig Schuster <?php if (isset($_GET['userName'])) {
-			  $requestedUsername = $_GET['userName'];
-			}?></span>
+                        <span class="m-r-1" id="lbl-nav-username">Username  </span>
                         <div class="avatar avatar-image avatar-sm avatar-inline loaded">
                             <img alt="User" src="https://s3.amazonaws.com/uifaces/faces/twitter/collegeman/128.jpg">
                         </div>

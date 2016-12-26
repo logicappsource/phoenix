@@ -3,14 +3,10 @@
 <div class="modal-dialog" id="loginmodal">
   <div class="modal-content">
     <div class="modal-header">
-    <img src="assets/images/pokerphoenix.png"  width="75%"/>
+    <img src="assets/images/pokerphoenix.png"  width="70%" />
       <h1 class="text-center">Poker Phoenix</h1>
-      <h4>Please sign in to use our service <br> 
-                 <br>
-              
-                 </h4>
-               
-               
+      <h4>Please sign in to use our service  </h4>
+                  
                 
     </div>
      <div class="modal-body">
@@ -24,10 +20,9 @@
          </div>
 
          <div class="form-group">
-             
              <button class="snip0059" type="submit" id="clicklogin" value="Login">Submit</button>
              <button type="button" class="snip0059"  data-toggle="modal" data-target="#myModal">Register</button>
-             <button type="button" class="snip0059" id="btn-password" data-toggle="modal" data-target="#myModal2">Forgot Password</button>
+             <button type="button" class="snip0059" id="btn-password" data-toggle="modal" data-target="#myModal2">Rec. Pass</button>
 
          </div>
          </form>

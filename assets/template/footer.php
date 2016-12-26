@@ -2,7 +2,7 @@
 <footer>
     <div class="container-fluid">
         <p class="text-gray-dark">
-            © 2016 - Your Company Name
+            © 2016 - Poker Phoenix - LogicAppSource Co. 
         </p>
     </div>
 </footer>

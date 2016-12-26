@@ -61,7 +61,7 @@
           "dataType":"JSON",
           "cache":false
 
-        }).done(function(jUser) {
+        }).done(function(jUser) { //success 
            
         globalUser = jUser; // only use global variable or local storage
 
@@ -73,10 +73,13 @@
     // save/ update string to local storage
         localStorage.user = localUser;
 
+      //NAv lbl = username 
+      var sUsername = globalUser.userName; 
+      var newUseNameLbl =  $('#lbl-nav-username').text(sUsername);
+
         //IF condition to hceck if !null then create
         //$("#loginmodal").show();
         $(".modal-dialog").hide();
-          
         loginSuccessMessage();
 
         });

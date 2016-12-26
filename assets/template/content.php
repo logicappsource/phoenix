@@ -183,8 +183,7 @@
 
 
                     <!-- END Widget - Emails Today -->
-                    <!-- START Widget - Tasks -->
-                    <table class="table table-condensed m-t-2 m-b-0">
+                    <!-- START Widget    <table class="table table-condensed m-t-2 m-b-0">
                         <thead>
                             <tr>
                                 <th class="small text-muted text-uppercase">
@@ -227,7 +226,8 @@
                                 </td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table>- Tasks -->
+                 
                     <!-- END Widget - Emails Today -->
 
                 </div>

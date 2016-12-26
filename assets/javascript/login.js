@@ -11,7 +11,7 @@
   
   function PlaySound() {
         
-          var snd = new Audio("./assets/phoenix.mp3"); // buffers automatically when created
+          var snd = new Audio("./assets/data/phoenix.mp3"); // buffers automatically when created
           snd.play();
       }
 

@@ -259,65 +259,8 @@
                                                 </div>
                                             </a>
 
-                                            <a href="../apps/email-details.html" class="list-group-item b-r-0 b-l-0">
-                                                <div class="media">
-                                                    <div class="media-left media-middle">
-                                                        <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/swaplord/128.jpg" alt="Avatar">
-                                                            <i class="avatar-status avatar-status-bottom bg-success b-gray-darker"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body media-auto">
-                                                        <h5 class="m-b-0 m-t-0">
-                                                            <span>Ward Carter</span>
-                                                            <small><span>04:31</span></small>
-                                                        </h5>
-                                                        <p class="m-t-0 m-b-0">
-                                                            <span>Nihil sint ab.</span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-
-                                            <a href="../apps/email-details.html" class="list-group-item b-r-0 b-l-0">
-                                                <div class="media">
-                                                    <div class="media-left media-middle">
-                                                        <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/bcrad/128.jpg" alt="Avatar">
-                                                            <i class="avatar-status avatar-status-bottom bg-danger b-gray-darker"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body media-auto">
-                                                        <h5 class="m-b-0 m-t-0">
-                                                            <span>Lera Carroll</span>
-                                                            <small><span>02:11</span></small>
-                                                        </h5>
-                                                        <p class="m-t-0 m-b-0">
-                                                            <span>Molestiae fugiat earum qui exercitationem possimus.</span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-
-                                            <a href="../apps/email-details.html" class="list-group-item b-r-0 b-l-0">
-                                                <div class="media">
-                                                    <div class="media-left media-middle">
-                                                        <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/jennyyo/128.jpg" alt="Avatar">
-                                                            <i class="avatar-status avatar-status-bottom bg-warning b-gray-darker"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body media-auto">
-                                                        <h5 class="m-b-0 m-t-0">
-                                                            <span>Celine Bins</span>
-                                                            <small><span>08:43</span></small>
-                                                        </h5>
-                                                        <p class="m-t-0 m-b-0">
-                                                            <span>Ut totam placeat dicta.</span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
+                                         
+                            
 
                                             <a href="../apps/email-details.html" class="list-group-item b-r-0 b-l-0">
                                                 <div class="media">

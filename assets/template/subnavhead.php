@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-header m-t-0">
-                    <h3 class="m-t-0">Starter HTML/CSS</h3>
+                    <h3 class="m-t-0">The Phoenix have landed..</h3>
                 </div>
             </div>
         </div>

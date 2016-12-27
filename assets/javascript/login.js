@@ -15,7 +15,7 @@
             snd.play();
         }
 
- //GLobal User Data Fetch      
+ //GLobal User Data Fetch -> login 
  function globalData () {
        //Username 
       var newUseNameLbl =  $('#lbl-nav-username').text(globalUser.userName);
@@ -29,7 +29,13 @@
       $('#user-icon').attr('src', globalUser.userIcon);
       //usericon-nav
       $('#user-icon-nav').attr('src', globalUser.userIcon);
-    
+      //userprofileTxt 
+      $('#lbl-profile-txt').append(globalUser.userProfileTxt);
+      //usericon-Profile
+      $('#profile-icon').attr('src', globalUser.userIcon);
+      //Fullname - PRfile 
+      $('#lbl-fullname').append(globalUser.userFirstName + "  " +  globalUser.userLastName);
+     
         }
 
       //CLOSURE - EXECUTE ONCE ->  LOGIN 
@@ -66,7 +72,7 @@
         return function () {
           if (!executed) {
             executed = true;
-            { swal("The Phoenix flied a message to you!", "Check your email!", "^^" );}
+            { swal("The Phoenix flied a message to you!", "Check your email!", "" );}
               PlaySound();
           }
         };

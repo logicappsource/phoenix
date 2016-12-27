@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 $("#btn-account").click(function() {
     hideAllWindowsShowOne("wdw-account");
-    console.log("tresting");
+   
 });
 
 $("#btn-main").click(function() {
@@ -22,7 +22,9 @@ $("#btn-faq").click(function() {
 });
 
 $("#btn-profile").click(function(){
+  
     hideAllWindowsShowOne("wdw-profile");
+  
 });
 
 $("#btn-edit-profile").click(function(){

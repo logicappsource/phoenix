@@ -24,6 +24,7 @@ session_start();
 
 			    $_SESSION['userName'] = $jUser->userName;
 			    $_SESSION['userIcon'] = $jUser->userIcon;
+					 $_SESSION['userId'] = $jUser->userId;
 
 
 			    /* SESSION EXPIRE -> index.php

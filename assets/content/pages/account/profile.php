@@ -8,15 +8,15 @@
                         <div class="media-left p-r-2">
                             <div class="center-block">
                                 <div class="avatar avatar-lg center-block">
-                                    <img class="img-circle center-block m-t-1 m-b-2" src="https://s3.amazonaws.com/uifaces/faces/twitter/kazaky999/128.jpg" alt="Avatar">
+                                    <img  id="profile-icon" class="img-circle center-block m-t-1 m-b-2" src="https://s3.amazonaws.com/uifaces/faces/twitter/kazaky999/128.jpg" alt="Avatar">
                                     <i class="avatar-status avatar-status-bottom bg-danger b-brand-gray-darker"></i>
                                 </div>
                             </div>
                         </div>
                         <div class="media-body">
-                            <h4 class="m-b-0"><span id="lbl-fullname">I o</span> <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Favorites">
+                            <h4 class="m-b-0"><span id="lbl-fullname"></span> <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Favorites">
        <i class="fa fa-fw fa-star-o text-muted fa-lg"></i></a> </h4>
-                            <p class="m-t-0"><span>District Solutions Director</span></p>
+                            <p class="m-t-0"><span>MR /ms / title</span></p>
 
                             <div class="btn-toolbar" role="toolbar" aria-label="...">
                                 <div class="btn-group" role="group" aria-label="...">
@@ -43,7 +43,7 @@
                         <h6 class="text-white"><strong>Profile Text</strong></h6>
                     </div>
                     <div id="lbl-profile-txt">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta sapiente earum, necessitatibus commodi eius pariatur repudiandae cum sunt officiis ex!</div>
+                    </div>
                     <div class="hr-text hr-text-left m-t-2">
                         <h6 class="text-white"><strong>Labels</strong></h6>
                     </div>

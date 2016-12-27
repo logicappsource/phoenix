@@ -10,8 +10,12 @@ $sUserEmail = $_GET['userEmailReg'];
 
 //$aJuser = new stdClass(); //new Class 
 //Data backend 
- $aJuser->userName = $sUsernameB; 
- $aJuser->userEmail = $sUserEmailB; 
+
+
+foreach($aJuser as $jUser) {
+    
+ $jUser->userName = $sUsernameB; 
+ $jUser->userEmail = $sUserEmailB; 
 
 
 //isset($_GET['userNameReg'] == $aJuser->userName && isset(['userEmailReg']) == $aJuser->userEmail
@@ -27,6 +31,8 @@ if(isset($_GET['userEmailReg']) && ($_GET['userEmailReg']) == $sUserEmailB ){
             echo "Email: {$emailForgotten}"; 
 
 }
+}
+
 
 
 

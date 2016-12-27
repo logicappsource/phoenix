@@ -56,59 +56,10 @@
         "userProfileTxt": "tedfsdfdsfsdfds"
     },
     {
-        "userName": "sdf",
-        "userPassword": "sdf",
-        "userEmail": "sdf",
-        "userFirstName": "sdf",
-        "userLastName": "sdf"
-    },
-    {
-        "userName": "asd",
-        "userPassword": "asd",
-        "userEmail": "asd",
-        "userFirstName": "asd",
-        "userLastName": "asd"
-    },
-    {
-        "userName": "username",
-        "userPassword": "jackpot",
-        "userEmail": "palleboy92@gmail.com",
-        "userFirstName": "firstname ",
-        "userLastName": "last name "
-    },
-    {
-        "userName": "username",
-        "userPassword": "jackpot",
-        "userEmail": "palleboy92@gmail.com",
-        "userFirstName": "frstname ",
-        "userLastName": "last n "
-    },
-    {
         "userName": "",
         "userPassword": "",
         "userEmail": "palleboy92@gmail.com",
-        "userFirstName": "",
+        "userFirstName": "s",
         "userLastName": ""
-    },
-    {
-        "userName": "",
-        "userPassword": "",
-        "userEmail": "palleboy92@gmail.com",
-        "userFirstName": "",
-        "userLastName": ""
-    },
-    {
-        "userName": "",
-        "userPassword": "",
-        "userEmail": "palleboy92@gmail.com",
-        "userFirstName": "",
-        "userLastName": ""
-    },
-    {
-        "userName": "sdf",
-        "userPassword": "sdf",
-        "userEmail": "palleboy92@gmail.com",
-        "userFirstName": "sdf",
-        "userLastName": "sdf"
     }
 ]

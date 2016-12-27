@@ -142,13 +142,27 @@
             "dataType":"JSON",
             "cache":false 
           }).done(function(jRegUser) {
-          
-            //Success
-            signUpSuccessMessage();
+             //Success
+             signUpSuccessMessage();
             $(".modal-dialog").hide();
             console.log(jRegUser);
           });
-        });
+
+
+          var sLinkRegMail = "assets/login/api-email-reg.php?userNameReg="+regUsername+"&userEmailReg="+regEmail; 
+
+          $.ajax({
+            "method":"get",
+            "url": sLinkRegMail,
+            "dataType":"JSON",
+            "cache": false 
+          }).done(function(jRegUserMail) {
+                  console.log("success");
+                  
+          }).fail(function(JRegUserFail) {
+                  console.log("fail");
+            })
+          });
 
 
 

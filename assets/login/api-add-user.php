@@ -7,15 +7,15 @@ $regUserName =  $_GET['userNameReg'];
 $regPassword = $_GET['userPasswordReg'];
 $userEmailrReg = $_GET['userEmailReg'];
 $regFirstname = $_GET['firstNameReg'];
-//$regLastname = $_GET['lastNameReg'];
+$regLastname = $_GET['lastNameReg'];
 
 
 $jUser = new stdClass(); //new Class 
 $jUser->userName = $regUserName;
 $jUser->userPassword = $regPassword;
 $jUser->userEmail = $userEmailrReg;
-$juser->userFirstName = $regFirstname;
-//$juser->userLastName = $regLastname;
+$jUser->userFirstName = $regFirstname;
+$jUser->userLastName = $regLastname;
 array_push($ajUsers, $jUser);
 
 

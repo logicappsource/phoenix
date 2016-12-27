@@ -3,11 +3,11 @@
         <div class="col-lg-2 m-b-2">
              <!-- START Menu Pills Vertical - Profile, Account, Billing, Sessions -->
     <ul class="nav nav-pills nav-stacked">
-        <li role="presentation" class=""><a href="profile-edit.html">Profile Edit</a></li>
-           <li role="presentation" class=""><a href="account-edit.html">Account Edit</a></li>
-       <li role="presentation" class=""><a href="billing-edit.html">Billing Edit</a></li>
-           <li role="presentation" class=""><a href="settings-edit.html">Settings Edit</a></li>
-          <li role="presentation" class="active"><a href="sessions-edit.html">Sessions Edit</a></li>
+        <li role="presentation" class=""><a href="#">Profile Edit</a></li>
+           <li role="presentation" class=""><a href="#">Account Edit</a></li>
+       <li role="presentation" class=""><a href="#">Billing Edit</a></li>
+           <li role="presentation" class=""><a href="#">Settings Edit</a></li>
+          <li role="presentation" class="active"><a href="#">Sessions Edit</a></li>
     </ul>
  <!-- START Menu Pills Vertical - Profile, Account, Billing, Sessions -->
  

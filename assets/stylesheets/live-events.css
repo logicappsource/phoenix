@@ -1,0 +1,179 @@
+ @import 'https://fonts.googleapis.com/css?family=Raleway';
+    @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+    @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+
+/*
+
+    .app-navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: fixed;
+      width: 100%;
+      height: 75px;
+      color: white;
+     
+      background-color: #222222;
+      font-family: 'Raleway', sans-serif;
+    }
+*/
+    #wdw-main-window{
+      position: fixed; 
+      display: flex;      
+      top: 75px;
+      width: 100%;
+      height: calc( 100% - 75px);
+      background-color: rgba(0,0,0,0.1);
+      float:left;
+      right:0px;
+      left:57px;
+      z-index:5000;
+    }
+
+    #wdw-main-window > div{
+      width: 100%;
+    }
+
+    #wdw-companies{
+      overflow-y: auto; 
+      padding-bottom: 100px;
+      background-color: white;
+      text-align: center;
+      background-color: #1A1A1A;
+    }
+
+
+    #wdw-map{
+      background-color: rgba(0,0,0,0.0);
+    }  
+
+    #map{
+      width: 100%;
+      height: 100%;
+    }    
+
+    .company{
+      display: flex;
+      justify-content: space-around;
+      align-items: stretch;
+      margin-top: 20px;
+    }  
+
+    .company > div{
+      width: 100%;
+    }
+
+    .company img{
+      width: 165px;
+      height: 100px;
+      border-radius: 50%;
+    }  
+
+    .company:hover {
+     
+      background:rgba(255,255,255, 0.4);
+    }
+
+    .company-going-up{
+      color: #70bb65;
+      font-size: 1.8em;
+    }
+    .company-going-down{
+      color: red;
+      font-size: 1.8em;
+    }
+
+    .company-percentage{
+      font-size: 130%;
+      color:white;
+      font-weight: bold;
+    }
+
+    .company-name{
+      color:white;
+      font-size: 1.8em;
+      font-family: 'Abril Fatface', cursive;
+    }
+
+    .company-price{
+      font-size: 1.6em;
+      font-weight: bold;
+      color:#32cd32;
+    }
+
+    @media (max-device-width: 1400px){
+      *{
+        font-size: 14px;
+      }
+
+      .company-percentage{
+        font-size: 16px;
+      }     
+    }
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1351 {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 20px 0px 68px;
+  text-align: center;
+  display: inline-block;
+  margin: 12px 25px;
+  font-weight: 300;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  line-height: 50px;
+  background-image: -webkit-linear-gradient(bottom, #262626 0, #333333 100%);
+  background-image: linear-gradient(to top, #262626 0, #333333 100%);
+  box-shadow: 1px 1px 2px -2px rgba(255, 255, 255, 0.8) inset, -1px -1px 2px -2px rgba(255, 255, 255, 0.3) inset, 1px 1px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.snip1351 i {
+  font-size: 1.5em;
+  width: 55px;
+  line-height: 50px;
+  position: absolute;
+  left: 0;
+}
+.snip1351:before,
+.snip1351:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 44px;
+  bottom: 6px;
+  border-radius: 5px 5px;
+}
+.snip1351:after {
+  background-color: rgba(255, 255, 255, 0.075);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4) inset, 1px 1px 2px -2px rgba(255, 255, 255, 0.3);
+}
+.snip1351:before {
+  opacity: 0;
+  background-color: #94c6e7;
+  mix-blend-mode: color;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.snip1351:hover,
+.snip1351.hover {
+  color: #ffffff;
+}
+.snip1351:hover:before,
+.snip1351.hover:before {
+  opacity: 1;
+}
+
+
+

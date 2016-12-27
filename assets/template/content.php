@@ -61,8 +61,8 @@
                             <span>Thursday</span>
                         </p>
                         <span class="lead text-white m-t-0 m-b-0">30 May</span>
-                        <p class="m-t-2">Partly cloudy today, temperature minimum 11º, maximum 15º</p>
-                        <a href="../start/weather.html">More Details <i class="fa fa-angle-right"></i></a>
+                        <p class="m-t-2">Avaiblie SCHEDULE TODAY:  11º, clock 15º</p>
+                        <a href="#">Plan <i class="fa fa-angle-right"></i></a>
                     </div>
                     <!-- END Widget - Weather Current -->
                     <!-- START Widget - Stock -->

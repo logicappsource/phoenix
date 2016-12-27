@@ -8,9 +8,13 @@ $(document).ready(function () {
 });
 
 
+
+$("#btn-live-schedule").click(function() {
+    hideAllWindowsShowOne("wdw-live-schedule");
+});
+
 $("#btn-account").click(function() {
     hideAllWindowsShowOne("wdw-account");
-   
 });
 
 $("#btn-main").click(function() {
@@ -22,9 +26,7 @@ $("#btn-faq").click(function() {
 });
 
 $("#btn-profile").click(function(){
-  
     hideAllWindowsShowOne("wdw-profile");
-  
 });
 
 $("#btn-edit-profile").click(function(){

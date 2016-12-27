@@ -25,7 +25,7 @@
                
 
             </p><p class="text-center small m-b-0">Total Balance</p>
-            <h3 class="media-heading f-w-300 text-center m-t-0 m-b-0"> <span id="lbl-menu-balance"> $ 2,456,31</span></h3>
+         <h3 class="media-heading f-w-300 text-center m-t-0 m-b-0"> <span id="lbl-menu-balance"> $</span></h3>
         </div>
 
     <div class="sidebar-overlay-head">
@@ -43,20 +43,21 @@
         <!-- START Tree -->
         <ul class="side-menu m-t-2">
             <li class="Dashboards">
-                <a href="#" title="Dashboards">
+                <a href="index.php" title="Dashboards">
                     <i class="fa fa-university"></i><span class="nav-label">Main</span><i class="fa arrow"></i>
                 </a>
                 <ul>
-                    <li class='active' id="btn-account">
-                        <a href="#"><span class="nav-label">Home</span>
+                    <li class='active' id="btn-live-schedule">
+                        <a href="#"><span class="nav-label">Live Schedule</span>
+                        <span class="pull-right label label-primary label-outline text-uppercase">New</span>
                         </a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a href="#" title="Page">
-                    <i id="btn-P" class="fa fa-lg fa-file-o fa-fw"></i><span class="nav-label">Page</span>
-                    <span class="pull-right label label-primary label-outline text-uppercase">New</span>
+                    <i id="btn-home"  class="fa fa fa-globe"></i><span  class="nav-label">Home</span>
+                    
                 </a>
             </li>
             <li>

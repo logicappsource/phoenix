@@ -83,7 +83,7 @@
 
                         <!-- START Form Job Type -->
                         <div class="form-group">
-                            <label for="profile-edit-job-type" class="col-sm-3 control-label"><span class="text-danger">*</span> Job Type</label>
+                            <label for="profile-edit-job-type" class="col-sm-3 control-label"><span class="text-danger">*</span> Player Type</label>
                             <div class="col-sm-6">
                                 <select class="form-control" id="profile-edit-job-type">
                                     <option>Cash Game Player</option>

@@ -1,7 +1,7 @@
 
 <!--Main ropot i content.php --> 
 
-
+            <div class="wdw"  id="wdw-account">   <?php require './assets/content/pages/account/account.php'; ?> </div> 
             <div class="wdw"  id="wdw-login">   <?php require './assets/content/pages/login/login.php'; ?> </div> 
             <div class="wdw"  id="wdw-main">   <?php require './assets/content/pages/main.php'; ?> </div> 
             <div class="wdw"  id="wdw-edit-profile">   <?php require './assets/content/pages/account/edit-profile.php'; ?> </div>

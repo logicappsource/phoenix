@@ -303,7 +303,7 @@
                     <a class="dropdown-toggle user-dropdown" data-toggle="dropdown" href="javascript: void(0)" role="button">
                         <span class="m-r-1" id="lbl-nav-username">Username  </span>
                         <div class="avatar avatar-image avatar-sm avatar-inline loaded">
-                            <img alt="User" src="https://s3.amazonaws.com/uifaces/faces/twitter/collegeman/128.jpg">
+                            <img id="user-icon-nav" alt="" src="">
                         </div>
                     </a>
                     <ul class="dropdown-menu">
@@ -311,8 +311,12 @@
                             <strong class="text-uppercase">Account</strong>
                         </li>
                         <li role="separator" class="divider"></li>
+                        
+                        <li id="btn-account">
+                            <a href="#">Account</a>
+                        </li>
                         <li id="btn-profile">
-                            <a href="#">Your Profile</a>
+                            <a href="#"> Profile</a>
                         </li>
                         <li id="btn-edit-profile">
                             <a href="#">Edit-Profile</a>

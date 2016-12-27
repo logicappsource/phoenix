@@ -2,9 +2,16 @@
 $(document).ready(function () {
     $(".wdw").hide(); 
     $("#wdw-login").show();
+
+
+ 
 });
 
 
+$("#btn-account").click(function() {
+    hideAllWindowsShowOne("wdw-account");
+    console.log("tresting");
+});
 
 $("#btn-main").click(function() {
     hideAllWindowsShowOne("wdw-main");

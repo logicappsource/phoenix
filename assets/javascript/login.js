@@ -5,25 +5,32 @@
   });
 
   var globalUser; //Global scope
+
   //Text to object 
  // globalUser = JSON.parse(localStorage.user);
  //Error when loading 
   
-  function PlaySound() {
+function PlaySound() {
         
           var snd = new Audio("./assets/data/phoenix.mp3"); // buffers automatically when created
           snd.play();
       }
 
-        function globalData () {
+ function globalData () {
        //Username 
-      var sUsername = globalUser.userName; 
-      var newUseNameLbl =  $('#lbl-nav-username').text(sUsername);
-      var newUseNameLbls =  $('#lbl-username').text(sUsername);
+      var newUseNameLbl =  $('#lbl-nav-username').text(globalUser.userName);
+      var newUseNameLbls =  $('#lbl-username').text(globalUser.userName);
       //Balance 
-      var sBalance = globalUser.userBalance; 
-      var nBalance = $('#lbl-menu-balance').text(sBalance);
-        
+      var nBalance = $('#lbl-menu-balance').text(globalUser.userBalance);
+      var uBalance = $('#user-balance').text(globalUser.userBalance);
+      //Staminapoitns
+      var iUserStamina = $("#lblStaminaPoints").text(globalUser.staminapoints);
+      //Usericon-Sidebar
+      $('#user-icon').attr('src', globalUser.userIcon);
+      //usericon-nav
+      $('#user-icon-nav').attr('src', globalUser.userIcon);
+    
+    
         }
 
   //CLOSURE - EXECUTE ONCE ->  LOGIN 
@@ -80,9 +87,11 @@
     // save/ update string to local storage
         localStorage.user = localUser;
 
-
-        //ON LOGIN -> USER CHANGES 
+    //ON LOGIN -> USER CHANGES 
         globalData();
+
+
+    
         
 
         //IF condition to hceck if !null then create

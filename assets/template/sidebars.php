@@ -3,21 +3,21 @@
 <div class="sidebar-container-default sidebar-section">
             <div class="media">
                 <div class="media-left media-middle">
-                    <a href="javascript: void(0)"> <!--<i class="fa fa-fw fa-power-off text-muted"></i>--></a>
+                    <a href="javascript: void(0)"></a>
                 </div>
                 <div class="media-body">
 
-                    <div class="avatar avatar-image avatar-lg center-block loaded" id="lbl-profile-pic">
+                    <div class="avatar avatar-image avatar-lg center-block loaded" id="lbl-usericon">
 
-                    <img src="" alt="usericon">  <!--  Imeplemnt userIcon here--> 
-
-                        <i class="avatar-status bg-success avatar-status-bottom"></i>
+                    <img id="user-icon" src="" alt="">  
+                   
+                        
                     </div>
                     <h5 class="media-heading text-center m-t-2 m-b-0"><span> </span></h5>
                     <div id=""> <p class="text-center small" id="lbl-username"> </p></div>
                 </div>
                 <div class="media-right media-middle">
-                    <a href="./profile.php"><!--<i class="fa fa-fw fa-gear text-muted"></i>--></a>
+                    <a href="./profile.php"></a>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@
                     <i class="fa fa-university"></i><span class="nav-label">Main</span><i class="fa arrow"></i>
                 </a>
                 <ul>
-                    <li class='active' id="btn-main">
+                    <li class='active' id="btn-account">
                         <a href="#"><span class="nav-label">Home</span>
                         </a>
                     </li>

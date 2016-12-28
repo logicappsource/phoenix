@@ -11,7 +11,7 @@ $aJUser  = json_decode($sFile);
 
         $toEmail = $emailForgotten;
         $subject = 'Forgotten password ';
-        $sHtmlPage = file_get_contents( "email.php" );  
+        $sHtmlPage = file_get_contents( "./data/email-temp.php" );  
 
         $headers = "Content-Type: text/html; charset=UTF-8\r\n";
         

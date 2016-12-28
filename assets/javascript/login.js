@@ -4,39 +4,7 @@
         $("#wdw-login").show();
     });
 
-    var globalUser; //Global scope
-
-    //Text to object 
-  // globalUser = JSON.parse(localStorage.user);
-  //Error when loading 
-    
-  function PlaySound() {
-            var snd = new Audio("./assets/data/phoenix.mp3"); // buffers automatically when created
-            snd.play();
-        }
-
- //GLobal User Data Fetch -> login 
- function globalData () {
-       //Username 
-      var newUseNameLbl =  $('#lbl-nav-username').text(globalUser.userName);
-      var newUseNameLbls =  $('#lbl-username').text(globalUser.userName);
-      //Balance 
-      var nBalance = $('#lbl-menu-balance').text(globalUser.userBalance);
-      var uBalance = $('#user-balance').text(globalUser.userBalance);
-      //Staminapoitns
-      var iUserStamina = $("#lblStaminaPoints").text(globalUser.staminapoints);
-      //Usericon-Sidebar
-      $('#user-icon').attr('src', globalUser.userIcon);
-      //usericon-nav
-      $('#user-icon-nav').attr('src', globalUser.userIcon);
-      //userprofileTxt 
-      $('#lbl-profile-txt').append(globalUser.userProfileTxt);
-      //usericon-Profile
-      $('#profile-icon').attr('src', globalUser.userIcon);
-      //Fullname - PRfile 
-      $('#lbl-fullname').append(globalUser.userFirstName + "  " +  globalUser.userLastName);
-     
-        }
+   
 
       //CLOSURE - EXECUTE ONCE ->  LOGIN 
       var loginSuccessMessage = (function() {
@@ -87,7 +55,7 @@
         var requestedUsername = $('#txtUserEmail').val();
         var requestedPassword = $('#txtUserPassword').val();
         
-        var sLink = "assets/login/login-new.php?userName="+requestedUsername+"&userPassword="+requestedPassword;
+        var sLink = "assets/api/api-login.php?userName="+requestedUsername+"&userPassword="+requestedPassword;
         $.ajax({
           "method":"get",
           "url": sLink,
@@ -120,7 +88,7 @@
       //Forgotten Password 
         $('#btn-forgot-password').on('click', function() {
             var sEmailInput = $('#input-email').val();
-            var sLink2 = "assets/login/forgot-password.php?emailForgot="+sEmailInput;
+            var sLink2 = "assets/api/api-forgot-password.php?emailForgot="+sEmailInput;
 
             $.ajax({
               "method":"get",
@@ -141,7 +109,7 @@
           var regFirstname = $('#firstnamereg').val(); 
           var regLastname  = $('#lastnamereg').val();
         
-          var sLinkReg = "assets/login/api-add-user.php?userNameReg="+regUsername+"&userPasswordReg="+regPassword+"&userEmailReg="+regEmail+"&firstNameReg="+regFirstname+"&lastNameReg="+regLastname;
+          var sLinkReg = "assets/api/api-add-user.php?userNameReg="+regUsername+"&userPasswordReg="+regPassword+"&userEmailReg="+regEmail+"&firstNameReg="+regFirstname+"&lastNameReg="+regLastname;
           $.ajax({
             "method":"get",
             "url":sLinkReg,
@@ -155,7 +123,7 @@
           });
 
 
-          var sLinkRegMail = "assets/login/api-email-reg.php?userNameReg="+regUsername+"&userEmailReg="+regEmail; 
+          var sLinkRegMail = "assets/api/api-email-reg.php?userNameReg="+regUsername+"&userEmailReg="+regEmail; 
 
           $.ajax({
             "method":"get",

@@ -145,14 +145,7 @@
                         </div>
                         <!-- END Form Profile -->
 
-                        <!-- START Form Add Labels -->
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-3 control-label">Add Labels</label>
-                            <div class="col-sm-6">
-                                <input type="email" class="form-control" id="inputEmail3" placeholder="Add Here...">
-                            </div>
-                        </div>
-                        <!-- END Form Add Labels -->
+                       
 
                     </form>
                     <!-- END All Forms -->
@@ -164,10 +157,12 @@
                 <div class="panel-footer text-right">
 
                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                    <button type="button" class="btn btn-primary">Update Profile</button>
+                    <button type="button" class="btn btn-primary" id="btn-update-profile">Update Profile</button>
                 </div>
                 <!-- START Panel Footer -->
             </div>
 
         </div>
     </div>
+
+

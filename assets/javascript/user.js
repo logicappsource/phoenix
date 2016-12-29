@@ -34,3 +34,7 @@
       $('#lbl-fullname').append(globalUser.userFirstName + "  " +  globalUser.userLastName);
      
         }
+
+
+
+   

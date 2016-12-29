@@ -11,7 +11,9 @@
         "joinedteams": "team1",
         "userFirstName": "pa",
         "userLastName": "sahlgren",
-        "userProfileTxt": "PRofile text"
+        "userProfileTxt": "PRofile text",
+        "playerType":"reg",
+        "avail":"d"
     },
     {
         "userName": "Pa",

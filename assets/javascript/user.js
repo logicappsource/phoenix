@@ -15,7 +15,10 @@
       var newUseNameLbl =  $('#lbl-nav-username').text(globalUser.userName);
       var newUseNameLbls =  $('#lbl-username').text(globalUser.userName);
       //Balance 
-      var nBalance = $('#lbl-menu-balance').text(globalUser.userBalance);
+      var iBalance = globalUser.userBalance;
+      var dollar = "$";
+
+      var nBalance = $('#lbl-menu-balance').text(dollar + iBalance);
       var uBalance = $('#user-balance').text(globalUser.userBalance);
       //Staminapoitns
       var iUserStamina = $("#lblStaminaPoints").text(globalUser.staminapoints);

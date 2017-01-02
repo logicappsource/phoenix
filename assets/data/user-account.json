@@ -9,9 +9,9 @@
         "staminapoints": 5,
         "verified": 0,
         "joinedteams": "team1",
-        "userFirstName": "222",
-        "userLastName": "2222",
-        "userProfileTxt": "2222",
+        "userFirstName": "$_SESSION['userid']32423423",
+        "userLastName": "$_SESSION['userid']24234",
+        "userProfileTxt": "234$_SESSION['userid']",
         "playerType": "Cash Game Player",
         "avail": "option1"
     },
@@ -57,24 +57,8 @@
         "userLastName": "sahlgren",
         "userProfileTxt": "tedfsdfdsfsdfds"
     },
-    {
-        "userName": "",
-        "userPassword": "",
-        "userEmail": "palleboy92@gmail.com",
-        "userFirstName": "222",
-        "userLastName": "2222",
-        "playerType": "Cash Game Player",
-        "avail": "option1",
-        "userProfileTxt": "2222"
-    },
-    {
-        "userName": "new",
-        "userPassword": "new",
-        "userEmail": "new",
-        "userFirstName": "new",
-        "userLastName": "new",
-        "userId": "1268647099586a4f504bc448.39098439"
-    },
+   
+    
     {
         "userName": "P1",
         "userEmail": "p@gmail.com",

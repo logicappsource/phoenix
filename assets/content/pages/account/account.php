@@ -1,4 +1,4 @@
-
+   <script src="./assets/javascript/transaction-history.js"></script>
 
         <div class="col-lg-3">
             <div class="panel panel-default no-bg b-a-2 b-success">
@@ -190,6 +190,9 @@
                                     </th>
                                 </tr>
                             </thead>
+
+                            
+
                             <tbody>
                                 <tr>
                                     <td class="v-a-m"><span class="text-white">Ledner - Johns</span></td>
@@ -201,24 +204,18 @@
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td class="v-a-m">
-                                        <span class="text-white">O&apos;Kon - Jast</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>$ 957.00</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>12-05-2013</span>
-                                    </td>
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
+
+
+
                                
                             </tbody>
+
+                            <tbody id="lblHistory">
+
+                                    </tbody>
                         </table>
 
                     </div>
                 </div>
+          
           

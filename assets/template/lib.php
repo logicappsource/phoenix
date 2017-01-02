@@ -14,10 +14,11 @@
 
 
 <!-- Scripts developed Logicappsource--> 
-<script type="text/javascript" src="./assets/javascript/app/navigation.js"></script>
+   <script type="text/javascript" src="./assets/javascript/app/navigation.js"></script>
    <script src="./assets/javascript/login.js"></script>
    <script src="./assets/javascript/user.js"></script>
    <script src="./assets/javascript/profile.js"></script>
+
 
 </body>
 

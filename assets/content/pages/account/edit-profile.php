@@ -41,7 +41,7 @@
                 <div class="panel-body">
 
                     <!-- START All Forms -->
-                    <form class="form-horizontal">
+                    <form class="form-horizontal"  >
 
                         <!-- START Form Avatar -->
                         <div class="form-group">
@@ -157,7 +157,7 @@
                 <div class="panel-footer text-right">
 
                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                    <button type="button" class="btn btn-primary" id="btn-update-profile">Update Profile</button>
+                    <button type="submit" class="btn btn-primary" id="btn-update-profile">Update Profile</button>
                 </div>
                 <!-- START Panel Footer -->
             </div>

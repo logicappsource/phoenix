@@ -14,20 +14,24 @@ $userLastName = $_GET['userLastName'];
 $playerType = $_GET['playerType'];
 $avail = $_GET['avail'];
 $userProfileTxt = $_GET['userProfileTxt']; 
-$userIdFront = $_GET['userId'];
 
-  //$_SESSION['userId'] = $userIdFront; 
+
+ $userIdFront = $_SESSION['userid'];
 
 
 foreach($ajUsers as $jUser) {
 
-    $iUserIdBackend = $jUser->userId; 
+   // $iUserIdBackend = $jUser->userId;  b4
 
-    if($userIdFront == $iUserIdBackend) {
+    if($userIdFront == $jUser->userId) {
 
         $jUser->userFirstName = $userFirstName;
+        $jUser->userLastName = $userLastName;
+        $jUser->playerType = $playerType;
+        $jUser->avail = $avail;
+        $jUser->userProfileTxt = $userProfileTxt;
 
-        $sUser = json_encode($jUser);
+        //$sUser = json_encode($jUser); b4
 
     }
 
@@ -35,16 +39,7 @@ foreach($ajUsers as $jUser) {
 
 
 $sFinalData = json_encode($ajUsers, JSON_PRETTY_PRINT);
-$save = file_put_contents("../data/user-account.json", $sFinalData);
-
-
-
-//$sFinalData = json_encode($ajUsers, JSON_PRETTY_PRINT )
-
-
-
-
-
+ file_put_contents("../data/user-account.json", $sFinalData);
 
 
 ?> 

@@ -9,11 +9,11 @@
         "staminapoints": 5,
         "verified": 0,
         "joinedteams": "team1",
-        "userFirstName": "pa",
-        "userLastName": "sahlgren",
-        "userProfileTxt": "PRofile text",
-        "playerType":"reg",
-        "avail":"d"
+        "userFirstName": "222",
+        "userLastName": "2222",
+        "userProfileTxt": "2222",
+        "playerType": "Cash Game Player",
+        "avail": "option1"
     },
     {
         "userName": "Pa",
@@ -47,7 +47,7 @@
         "userName": "Pa",
         "userEmail": "palleboy92@gmail.com",
         "userPassword": "jackpot",
-        "userId": 1,
+        "userId": 3,
         "userBalance": 10000,
         "userIcon": "https:\/\/encrypted-tbn3.gstatic.com\/images?q=tbn:ANd9GcTwLWjh2BVPvdi3Gd6XdcpzOp7XLSHnS_DZrpbhyB8JANpluR9vkg",
         "staminapoints": 55,
@@ -61,7 +61,46 @@
         "userName": "",
         "userPassword": "",
         "userEmail": "palleboy92@gmail.com",
-        "userFirstName": "s",
-        "userLastName": ""
+        "userFirstName": "222",
+        "userLastName": "2222",
+        "playerType": "Cash Game Player",
+        "avail": "option1",
+        "userProfileTxt": "2222"
+    },
+    {
+        "userName": "new",
+        "userPassword": "new",
+        "userEmail": "new",
+        "userFirstName": "new",
+        "userLastName": "new",
+        "userId": "1268647099586a4f504bc448.39098439"
+    },
+    {
+        "userName": "P1",
+        "userEmail": "p@gmail.com",
+        "userPassword": "jackpot1",
+        "userId": 2,
+        "userBalance": 234234,
+        "userIcon": "https:\/\/encrypted-tbn3.gstatic.com\/images?q=tbn:ANd9GcTwLWjh2BVPvdi3Gd6XdcpzOp7XLSHnS_DZrpbhyB8JANpluR9vkg",
+        "staminapoints": 555,
+        "verified": 0,
+        "joinedteams": "team1",
+        "userFirstName": "pa",
+        "userLastName": "sahlgren",
+        "userProfileTxt": "tedfsdfdsfsdfds"
+    },
+    {
+        "userName": "hey",
+        "userPassword": "hey",
+        "userEmail": " hey",
+        "userFirstName": "hey",
+        "userLastName": "hey",
+        "userBalance": 0,
+        "joinedteams": 0,
+        "verified": 0,
+        "staminapoints": 0,
+        "userIcon": "",
+        "userProfileTxt": "",
+        "userId": "51898318586a50e719ee05.93852607"
     }
 ]

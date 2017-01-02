@@ -52,9 +52,14 @@
                         <span class="pull-right label label-primary label-outline text-uppercase">New</span>
                         </a>
                     </li>
+                   
+
+                      <li id="btn-coinflipit">
+                        <a href="#"><span class="nav-label">Coin Flip It</span></a>
+                    </li>
                 </ul>
             </li>
-            <li>
+            <li id="btn-online-schedule">
                 <a href="#" title="Page">
                     <i id="btn-home"  class="fa fa fa-globe"></i><span  class="nav-label">Home</span>
                     
@@ -70,8 +75,8 @@
                         <span class="nav-label">Level One</span> <i class="fa arrow"></i>
                     </a>
                     <ul>
-                    <li>
-                        <a href="#"><span class="nav-label">Sub-level</span></a>
+                    <li id="btn-online-schedule">
+                        <a href="#"><span class="nav-label">Live Streams</span></a>
                     </li>
                     </ul>
                 </li>

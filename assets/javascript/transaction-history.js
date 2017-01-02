@@ -37,9 +37,6 @@ var aUses = [];
                         '<td><i class="fa arrow-up" aria-hidden="true"></i></td>' + 
                         '</tr>'); 
 
-            
-
-
             })
 
         }).fail(function(jfail) {
@@ -47,16 +44,3 @@ var aUses = [];
         });
 
 
-/*
-
-  for(var i = 0; i < aHistory.length; i++) {
-            
-            console.log(aHistory[i].team);
-            $("#lblHistory").append(
-                '<tr>' +
-                '<th scope="row">'+'<h4>'+aHistory[i].team + '</h4>'+ '</th>' +
-                '<td>' + '<h4>' + aHistory[i].team + '</h4>' + '</td>' +
-                '<td class="historyPrice">' + aHistory[i].betammount + '</td>' +
-                '<td><i class="fa arrow-up" aria-hidden="true"></i></td>' + 
-                '</tr>'); 
-        }*/

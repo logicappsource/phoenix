@@ -315,6 +315,7 @@
                         <li id="btn-account">
                             <a href="#">Account</a>
                         </li>
+                          
                         <li id="btn-profile">
                             <a href="#"> Profile</a>
                         </li>
@@ -325,8 +326,8 @@
                             <a href="#">Faq</a>
                         </li>
                         <li role="separator" class="divider"></li>
-                        <li id="btn-logout">
-                            <a href="#">Sign Out</a>
+                        <li id="btn-deposit">
+                            <a href="#">Deposit</a>
                         </li>
                     </ul>
                 </li>

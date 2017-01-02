@@ -772,79 +772,8 @@
                         <div class="tab-pane fade in active p-r-1" id="tab-overview" role="tabpanel">
 
 
-                            <div class="row m-t-3">
-
-                                <div class="col-lg-3 col-md-6 col-sm-6">
-                                    <!-- START Widget - Views -->
-                                    <div class="panel panel-default bg-primary b-a-0">
-                                        <div class="panel-body">
-                                            <p class="text-white m-t-0">Views
-                                                <span class="label label-white pull-right label-outline">Monthly</span>
-                                            </p>
-                                            <h3 class="display-4 text-center m-b-0">6.200</h3>
-                                            <p class="text-muted small text-uppercase m-t-0 m-b-3 text-center"><strong><small class="text-white">Total Views</small></strong>
-                                                <br>
-                                            </p>
-                                            <p class="small text-white m-t-2 m-b-0"> Last Month <span class="pull-right text-white">34% <i class="fa fa fa-caret-down text-white"></i></span></p>
-                                        </div>
-                                    </div>
-                                    <!-- END Widget - Views -->
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6">
-                                    <!-- START Widget - Orders -->
-                                    <div class="panel panel-default bg-success b-a-0">
-                                        <div class="panel-body">
-                                            <p class="text-white m-t-0">Orders
-                                                <span class="label label-white pull-right label-outline">Annual</span>
-                                            </p>
-                                            <h3 class="display-4 text-center m-b-0">80.202</h3>
-                                            <p class="text-muted small text-uppercase m-t-0 m-b-3 text-center"><strong><small class="text-white">New Orders</small></strong>
-                                                <br>
-                                            </p>
-                                            <p class="small text-white m-t-2 m-b-0"> Last Month <span class="pull-right text-white">92% <i class="fa fa fa-caret-down text-white"></i></span></p>
-                                        </div>
-                                    </div>
-                                    <!-- END Widget - Orders -->
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6">
-                                    <!-- START Widget - Visits -->
-                                    <div class="panel panel-default bg-warning b-a-0">
-                                        <div class="panel-body">
-                                            <p class="text-white m-t-0">Visits
-                                                <span class="label label-white pull-right label-outline">Monthly</span>
-                                            </p>
-                                            <h3 class="display-4 text-center m-b-0">767</h3>
-                                            <p class="text-muted small text-uppercase m-t-0 m-b-3 text-center"><strong><small class="text-white">Total Views</small></strong>
-                                                <br>
-                                            </p>
-                                            <p class="small text-white m-t-2 m-b-0"> Last Month <span class="pull-right text-white">34% <i class="fa fa fa-caret-down text-white"></i></span></p>
-                                        </div>
-                                    </div>
-                                    <!-- END Widget - Visits -->
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6">
-                                    <!-- START Widget - Downloads -->
-                                    <div class="panel panel-default bg-danger b-a-0">
-                                        <div class="panel-body">
-                                            <p class="text-white m-t-0">Downloads
-                                                <span class="label label-white pull-right label-outline">Today</span>
-                                            </p>
-                                            <h3 class="display-4 text-center m-b-0">72</h3>
-                                            <p class="text-muted small text-uppercase m-t-0 m-b-3 text-center"><strong><small class="text-white">Total Downloads</small></strong>
-                                                <br>
-                                            </p>
-                                            <p class="small text-white m-t-2 m-b-0"> Last Month <span class="pull-right text-white">20% <i class="fa fa fa-caret-up text-white"></i></span></p>
-                                        </div>
-                                    </div>
-                                    <!-- END Widget - Downloads -->
-                                </div>
-
-
-                            </div>
-
+                       
+                       
 
 
                             <div class="hr-text hr-text-center m-t-2">

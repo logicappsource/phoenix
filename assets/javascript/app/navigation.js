@@ -8,9 +8,20 @@ $(document).ready(function () {
 });
 
 
+$("#btn-coinflipit").click(function() {
+    hideAllWindowsShowOne("wdw-coinflipit");
+});
+
+$("#btn-deposit").click(function() {
+    hideAllWindowsShowOne("wdw-deposit");
+});
 
 $("#btn-live-schedule").click(function() {
     hideAllWindowsShowOne("wdw-live-schedule");
+});
+
+$("#btn-online-schedule").click(function() {
+    hideAllWindowsShowOne("wdw-online-schedule");
 });
 
 $("#btn-account").click(function() {
@@ -27,6 +38,7 @@ $("#btn-faq").click(function() {
 
 $("#btn-profile").click(function(){
     hideAllWindowsShowOne("wdw-profile");
+    
 });
 
 $("#btn-edit-profile").click(function(){
@@ -48,6 +60,7 @@ $("#btn-settings-edit").click(function() {
 $("#btn-session-edit").click(function() {
     hideAllWindowsShowOne("wdw-session-edit");
 });
+
 
 
 $("#btn-logout").click(function() {

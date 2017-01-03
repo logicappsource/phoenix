@@ -157,79 +157,9 @@
                             </tr>
                             <!-- END ROW Session IDLE -->
 
-                            <!-- START ROW Session IDLE -->
-                            <tr>
-                                <td class="v-a-m">
-                                    <i class="fa fa-fw fa-circle text-muted"></i>
+                           
                                 </td>
-                                <td class="v-a-m">
-                                    <!-- START Browser & OS Version -->
-                                    <div class="media">
-                                        <div class="media-left media-middle">
-                                            <i class="fa fa-fw fa-2x fa-tablet text-muted"></i>
-                                        </div>
-                                        <div class="media-body media-auto">
-                                            <span>AppleWebKit <span class="text-muted">/</span> 534.2.0</span>
-                                            <br> iOS 9.1
-                                        </div>
-                                    </div>
-                                    <!-- END Browser & OS Version  -->
-                                </td>
-                                <td class="v-a-m">
-                                    <samp><span>165.37.143.44</span></samp>
-                                    <br> -
-                                </td>
-                                <td class="v-a-m">
-                                    <span>Heatherfurt</span>
-                                    <br>
-                                    <span>West Virginia, Antarctica (the territory South of 60 deg S)</span>
-                                </td>
-                                <td class="v-a-m">
-                                    <span>01 November, Thursday, 2016</span>
-                                    <br> 09:11 AM
-                                </td>
-                                <td class="v-a-m text-right">
-                                    <a href="javascript: void(0)" data-toggle="tooltip" data-placement="left" title="" data-original-title="Revoke"><i class="fa fa-close text-danger"></i></a>
-                                </td>
-                            </tr>
-                            <!-- END ROW Session IDLE -->
-
-                            <!-- START ROW Session IDLE -->
-                            <tr>
-                                <td class="v-a-m">
-                                    <i class="fa fa-fw fa-circle text-muted"></i>
-                                </td>
-                                <td class="v-a-m">
-                                    <!-- START Browser & OS Version -->
-                                    <div class="media">
-                                        <div class="media-left media-middle">
-                                            <i class="fa fa-fw fa-2x fa-server text-muted"></i>
-                                        </div>
-                                        <div class="media-body media-auto">
-                                            <span>Safari <span class="text-muted">/</span> 533.1.0</span>
-                                            <br> OSX Server 4
-                                        </div>
-                                    </div>
-                                    <!-- END Browser & OS Version  -->
-                                </td>
-                                <td class="v-a-m">
-                                    <samp><span>97.74.0.58</span></samp>
-                                    <br> -
-                                </td>
-                                <td class="v-a-m">
-                                    <span>West Violetteland</span>
-                                    <br>
-                                    <span>Arizona, Bangladesh</span>
-                                </td>
-                                <td class="v-a-m">
-                                    <span>01 May, Monday, 2016</span>
-                                    <br> 09:11 AM
-                                </td>
-                                <td class="v-a-m text-right">
-                                    <a href="javascript: void(0)" data-toggle="tooltip" data-placement="left" title="" data-original-title="Revoke"><i class="fa fa-close text-danger"></i></a>
-                                </td>
-                            </tr>
-                            <!-- END ROW Session IDLE -->
+                            
                         </tbody>
                     </table>
                 </div>

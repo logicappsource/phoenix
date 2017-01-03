@@ -2,16 +2,16 @@
     {
         "userName": "Palle",
         "userEmail": "p@gmail.com",
-        "userPassword": "jackpot",
+        "userPassword": null,
         "userId": 0,
         "userBalance": 10000,
         "userIcon": "https:\/\/encrypted-tbn3.gstatic.com\/images?q=tbn:ANd9GcTwLWjh2BVPvdi3Gd6XdcpzOp7XLSHnS_DZrpbhyB8JANpluR9vkg",
         "staminapoints": 5,
         "verified": 0,
         "joinedteams": "team1",
-        "userFirstName": "$_SESSION['userid']32423423",
-        "userLastName": "$_SESSION['userid']24234",
-        "userProfileTxt": "234$_SESSION['userid']",
+        "userFirstName": "firstname",
+        "userLastName": "lastname",
+        "userProfileTxt": "profile",
         "playerType": "Cash Game Player",
         "avail": "option1"
     },
@@ -57,8 +57,6 @@
         "userLastName": "sahlgren",
         "userProfileTxt": "tedfsdfdsfsdfds"
     },
-   
-    
     {
         "userName": "P1",
         "userEmail": "p@gmail.com",

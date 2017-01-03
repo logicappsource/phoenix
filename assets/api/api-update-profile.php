@@ -19,7 +19,7 @@ foreach($ajUsers as $jUser) {
 
    // $iUserIdBackend = $jUser->userId;  b4
 
-    if($_SESSION['userid'] == $jUser->userId) {
+    if($_SESSION['userId'] == $jUser->userId) {
 
         $jUser->userFirstName = $userFirstName;
         $jUser->userLastName = $userLastName;

@@ -3,11 +3,11 @@
         <div class="col-lg-2 m-b-2">
              <!-- START Menu Pills Vertical - Profile, Account, Billing, Sessions -->
     <ul class="nav nav-pills nav-stacked">
-        <li role="presentation" class=""><a href="profile-edit.html">Profile Edit</a></li>
+        <li role="presentation" class=""><a href="#">Profile Edit</a></li>
            <li role="presentation" class="active"><a href="#">Account Edit</a></li>
        <li  id="btn-billing-edit"presentation" class=""><a href="#">Billing Edit</a></li>
-           <li role="presentation" class=""><a href="settings-edit.html">Settings Edit</a></li>
-          <li role="presentation" class=""><a href="sessions-edit.html">Sessions Edit</a></li>
+           <li role="presentation" class=""><a href="#">Settings Edit</a></li>
+          <li role="presentation" class=""><a href="#">Sessions Edit</a></li>
     </ul>
  <!-- START Menu Pills Vertical - Profile, Account, Billing, Sessions -->
  
@@ -33,7 +33,7 @@
                         <div class="form-group">
                             <label for="account-edit-old-password" class="col-sm-3 control-label">Old Password</label>
                             <div class="col-sm-6">
-                                <input type="email" class="form-control" id="account-edit-old-password">
+                                <input type="text" class="form-control" id="account-edit-old-password">
                             </div>
                         </div>
                         <!-- END Form Old Password -->
@@ -42,7 +42,7 @@
                         <div class="form-group">
                             <label for="account-edit-new-password" class="col-sm-3 control-label">New Password</label>
                             <div class="col-sm-6">
-                                <input type="email" class="form-control" id="account-edit-new-password">
+                                <input type="password" class="form-control" id="account-edit-new-password">
                             </div>
                         </div>
                         <!-- END Form New Password -->
@@ -51,7 +51,7 @@
                         <div class="form-group">
                             <label for="account-edit-confirm-new-password" class="col-sm-3 control-label">Confirm New Password</label>
                             <div class="col-sm-6">
-                                <input type="email" class="form-control" id="account-edit-confirm-new-password">
+                                <input type="password" class="form-control" id="account-edit-confirm-new-password">
                             </div>
                         </div>
                         <!-- END Form Confirm New Password -->
@@ -62,9 +62,10 @@
                             <div class="col-sm-6">
 
                                 <!-- Standard button -->
-                                <button type="button" class="btn btn-default">Update Password</button>
+                                <button type="submit" id="btn-update-password" class="btn btn-default">Update Password</button>
+
                                 <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-                                <a role="button" class="btn btn-link" href="../pages/forgot-password.html">Forgot Password?</a>
+                                <a role="button" class="btn btn-link" href="index.php">Forgot Password?</a>
 
                             </div>
                         </div>
@@ -91,7 +92,13 @@
                 <div class="panel-body">
                     <p>Changing the username is not recommended. In this connection, I can appear <a href="../apps/faq.html">many problems</a>.</p>
                     <!-- Standard button -->
-                    <button type="button" class="btn btn-default">Change Username</button>
+                      <div class="form-group">
+                            <label for="account-edit-old-password" class="col-sm-3 control-label">New Username</label>
+                            <div class="col-sm-6">
+                                <input type="email" class="form-control" id="account-edit-new-username">
+                            </div>
+                        </div>
+                    <button type="submit" id="btn-change-username" class="btn btn-default">Change Username</button>
                 </div>
             </div>
             <!-- END Panel Change Username -->

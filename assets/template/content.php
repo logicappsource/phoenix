@@ -437,30 +437,6 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm loaded">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/murrayswift/128.jpg" alt="Avatar">
-                                        <i class="avatar-status avatar-status-bottom bg-success b-brand-gray-darker"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Syble Thompson</span></h5>
-                                    <p class="small text-gray-lighter m-b-0"><span>Dynamic Interactions Specialist</span></p>
-                                </div>
-
-                                <div class="media-right media-middle">
-
-                                </div>
-
-                            </div>
-                        </a>
-                    </li>
-                    <!-- START User Online (Small) -->
-
-                    <!-- START User Online (Small) -->
-                    <li role="presentation">
-                        <a href="javascript: void(0)" class="extra-content-open">
-                            <div class="media">
-                                <div class="media-left media-middle">
-                                    <div class="avatar avatar-image avatar-sm loaded">
                                         <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/jerrybai1907/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom bg-success b-brand-gray-darker"></i>
                                     </div>
@@ -484,52 +460,13 @@
                        <p class="small text-uppercase m-t-2"><strong>Busy (3)</strong></p>
                     </li>
 
-                    <!-- START User Online (Busy) -->
-                    <li class="collapsed" role="presentation">
-                        <a href="javascript: void(0)" class="extra-content-open">
-                            <div class="media">
-                                <div class="media-left media-middle">
-                                    <div class="avatar avatar-image avatar-sm loaded">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/buzzusborne/128.jpg" alt="Avatar">
-                                        <i class="avatar-status avatar-status-bottom bg-danger b-brand-gray-darker"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Michael Jacobson</span></h5>
-                                    <p class="small text-muted m-b-0"><span>International Program Facilitator</span></p>
-                                </div>
+                   
+                   
+                 
+                 
 
-                                <div class="media-right media-middle">
-
-                                </div>
-
-                            </div>
-                        </a>
-                    </li>
-                    <!-- START User Online (Busy) -->
-
-                    <!-- START User Online (Busy) -->
-                    <li role="presentation">
-                        <a href="javascript: void(0)" class="extra-content-open">
-                            <div class="media">
-                                <div class="media-left media-middle">
-                                    <div class="avatar avatar-image avatar-sm loaded">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mgonto/128.jpg" alt="Avatar">
-                                        <i class="avatar-status avatar-status-bottom bg-danger b-brand-gray-darker"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Selmer Grady</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Dynamic Accountability Executive</span></p>
-                                </div>
-
-                                <div class="media-right media-middle">
-
-                                </div>
-
-                            </div>
-                        </a>
-                    </li>
+                
+                
                     <!-- START User Online (Busy) -->
 
                                         <!-- START User Online (Busy) -->
@@ -584,29 +521,8 @@
                     </li>
                     <!-- START User Online (Away) -->
 
-                    <!-- START User Online (Away) -->
-                    <li role="presentation">
-                        <a href="javascript: void(0)" class="extra-content-open">
-                            <div class="media">
-                                <div class="media-left media-middle">
-                                    <div class="avatar avatar-image avatar-sm loaded">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/n3dmax/128.jpg" alt="Avatar">
-                                        <i class="avatar-status avatar-status-bottom bg-warning b-brand-gray-darker"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Cedrick Brekke</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Global Applications Administrator</span></p>
-                                </div>
-
-                                <div class="media-right media-middle">
-
-                                </div>
-
-                            </div>
-                        </a>
-                    </li>
-                    <!-- START User Online (Away) -->
+                   
+                   
 
                     <!-- START User Online (Away) -->
                     <li role="presentation">
@@ -658,31 +574,8 @@
                             </div>
                         </a>
                     </li>
-                    <!-- START User Online (Away) -->
-
-                    <!-- START User Online (Away) -->
-                    <li role="presentation">
-                        <a href="javascript: void(0)" class="extra-content-open">
-                            <div class="media">
-                                <div class="media-left media-middle">
-                                    <div class="avatar avatar-image avatar-sm loaded">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/ddggccaa/128.jpg" alt="Avatar">
-                                        <i class="avatar-status avatar-status-bottom bg-gray-lighter b-brand-gray-darker"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Russel Conroy</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Product Paradigm Planner</span></p>
-                                </div>
-
-                                <div class="media-right media-middle">
-
-                                </div>
-
-                            </div>
-                        </a>
-                    </li>
-                    <!-- START User Online (Away) -->
+                   
+                   
 
                     <!-- START User Online (Away) -->
                     <li role="presentation">

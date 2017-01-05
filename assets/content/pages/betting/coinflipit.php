@@ -19,6 +19,8 @@
 
     if(spin == animation900  || spin == animation1080 || spin == animation1260 ) {
         console.log("tail");
+
+        
     } */
 
         return spin;

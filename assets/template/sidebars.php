@@ -59,9 +59,9 @@
                     </li>
                 </ul>
             </li>
-            <li id="btn-online-schedule">
+            <li id="btn-schedule">
                 <a href="#" title="Page">
-                    <i id="btn-home"  class="fa fa fa-globe"></i><span  class="nav-label">Home</span>
+                    <i id="btn-schedule"  class="fa fa fa-globe"></i><span  class="nav-label">Tournements</span>
                     
                 </a>
             </li>

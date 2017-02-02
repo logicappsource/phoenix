@@ -2,17 +2,17 @@
     {
         "userName": "Palle",
         "userEmail": "p@gmail.com",
-        "userPassword": "jackpot92",
+        "userPassword": "jackpot9292",
         "userId": 0,
         "userBalance": 10000,
         "userIcon": "https:\/\/encrypted-tbn3.gstatic.com\/images?q=tbn:ANd9GcTwLWjh2BVPvdi3Gd6XdcpzOp7XLSHnS_DZrpbhyB8JANpluR9vkg",
         "staminapoints": 5,
         "verified": 0,
         "joinedteams": "team1",
-        "userFirstName": "firstname",
-        "userLastName": "lastname",
-        "userProfileTxt": "profile",
-        "playerType": "Cash Game Player",
+        "userFirstName": "NewName",
+        "userLastName": "Newlastname",
+        "userProfileTxt": "newprofiletxtxt",
+        "playerType": "HighStakes Player",
         "avail": "option1"
     },
     {

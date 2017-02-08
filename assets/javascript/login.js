@@ -15,6 +15,7 @@
             executed = true;
             {swal("Phoenix Flying!", "You Successfully loggedin!", "success");}
               PlaySound();
+             // notifyMe();
           }
         };
       })();

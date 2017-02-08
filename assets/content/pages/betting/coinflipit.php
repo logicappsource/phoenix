@@ -1,9 +1,20 @@
+
 <script>
+//calculate random coinflipit 
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
 
  function PlaySoundFlip() {
             var snd = new Audio("https://www.partnersinrhyme.com/files/sounds1/WAV/office/coinflip.wav"); // buffers automatically when created
             snd.play();
         }
+
+
+
+        
 
     jQuery(document).ready(function($){
 
@@ -18,6 +29,19 @@
         console.log("tail");
 
     } */
+
+   var randomInt =  getRandomInt(100, 1000); 
+
+  // console.log(randomInt);
+
+    if (randomInt >= 500)  {
+          notifyWin();
+          console.log("You have won with ",  randomInt);
+    } else {
+        notifyLoose();
+        console.log("You have loost with less than ", randomInt);
+    }
+
 
         return spin;
     }

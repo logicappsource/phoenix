@@ -12,7 +12,7 @@
             <div class="wdw"  id="wdw-billing-edit">   <?php require './assets/content/pages/account/billing-edit.php'; ?> </div> 
             <div class="wdw"  id="wdw-settings-edit">   <?php require './assets/content/pages/account/settings-edit.php'; ?> </div> 
             <div class="wdw"  id="wdw-session-edit">   <?php require './assets/content/pages/account/session-edit.php'; ?> </div>   
-            <div class="wdw"  id="wdw-faq">   <?php require './assets/content/pages/faq.php'; ?> </div> 
+            <div class="wdw"  id="wdw-faq">   <?php require './assets/content/pages/menu/faq.php'; ?> </div> 
             <div class="wdw"  id="wdw-logout">   <?php  require './assets/content/pages/login/logout.php'; ?> </div> 
 
 <!-- START Content -->

@@ -14,6 +14,8 @@ $sFile = file_get_contents('http://www.pokerstars.com/datafeed/tournaments/regul
  *  - http://www.w3.org/TR/cors/
  *
  */
+
+ echo $sFile;
 function cors() {
 
     // Allow from any origin

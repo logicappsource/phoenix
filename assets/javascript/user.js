@@ -20,6 +20,7 @@
 
       var nBalance = $('#lbl-menu-balance').text(dollar + iBalance);
       var uBalance = $('#user-balance').text(globalUser.userBalance);
+
       //Staminapoitns
       var iUserStamina = $("#lblStaminaPoints").text(globalUser.staminapoints);
       //Usericon-Sidebar
@@ -36,5 +37,3 @@
         }
 
 
-
-   

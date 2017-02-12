@@ -9,13 +9,34 @@ $userPassword = $_GET['userPassword'];
 $userPasswordNew = $_GET['userPasswordNew'];
 $userName = $_GET['userName'];
 
+$deleteAccount = $_GET['deleteAccount'];
+
+
+
+
 
 foreach($ajUsers as $jUser) {
     //Error userId
+
     if($_SESSION['userId'] == $jUser->userId){
 
-            $jUser->userPassword = $userPasswordNew;
-            $jUser->userName  = $userName;
+       
+
+            if(isset($_GET['deleteAccount'])) {
+                unset($ajUsers[$jUser]);
+
+            }
+           
+            if(isset($_GET['userName'])) {
+                    $jUser->userName  = $userName;
+            }
+
+           if(isset($_GET['userPasswordNew']) && isset($_GET['userPassword'])) {
+                $jUser->userPassword = $userPasswordNew;
+           }
+
+          
+            //var_dump  ($jUser);
     }
 }
 

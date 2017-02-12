@@ -49,7 +49,6 @@
 		    	notifyLoose() 
 		    }
 
-
  
     		//if winning call this func
     function notifyWin() {
@@ -73,8 +72,11 @@
     };
     	    //if loose call 
     function notifyLoose() {
+    
+      
+
 	    	 var theMessage = "You have lost your bet"; // - ammount bet
- 		//play sound implementation
+
  		//PlaySound();
 	    setInterval(function(){
 	      // message is empty and sData contains A

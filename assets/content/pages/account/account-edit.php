@@ -111,7 +111,7 @@
                 <div class="panel-body">
                     <p>Once you delete your account, there is no going back. Please be certain.</p>
 
-                    <button type="button" class="btn btn-danger btn-outline">Delete Your Account</button>
+                    <button id="btn-delete-account" type="button" class="btn btn-danger btn-outline">Delete Your Account</button>
                 </div>
 
                 <!-- START Panel Footer -->

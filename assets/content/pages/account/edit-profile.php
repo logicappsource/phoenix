@@ -55,6 +55,8 @@
                                         </p>
                                         <h5 class="text-center">Upload Your Avatar...</h5>
                                         <p class="text-center">Drag a file here or <a href="#"> browse</a> for a file to upload.</p>
+                                        <input type="file" name="fileToUpload" id="fileToUpload">
+                                        
                                         <p class="small text-center">JPG, GIF, PNG, MOV and AVI. Please choose a files under 2GB to upload. File sizes are 400 x 300px.</p>
                                         <p></p>
                                     </div>

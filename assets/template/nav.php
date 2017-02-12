@@ -61,7 +61,7 @@
             <!-- START Right Side Navbar -->
             
             <ul class="nav navbar-nav navbar-right">
-                <li id="btn-signout"><a href="#">Sign Out<i class="m-l-1 fa-lg fa fa-fw fa-sign-out m-r-1"></i></a></li>
+                <li id="btn-signout"><a href="logout.php">Sign Out<i class="m-l-1 fa-lg fa fa-fw fa-sign-out m-r-1"></i></a></li>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -179,7 +179,7 @@
 
                         <!-- END Scroll Inside Panel -->
                         <li class="list-group-item b-a-0 p-x-0 p-y-0 r-a-0 b-b-0">
-                            <a class="list-group-item text-center b-r-0 b-b-0 b-l-0 b-r-b-r-0 b-r-b-l-0" href="../pages/timeline.html">
+                            <a class="list-group-item text-center b-r-0 b-b-0 b-l-0 b-r-b-r-0 b-r-b-l-0" href="#">
                                 See All Notifications <i class="fa fa-angle-right"></i>
                             </a>
                         </li>

@@ -19,6 +19,8 @@
    <script src="./assets/javascript/user.js"></script>
    <script src="./assets/javascript/profile.js"></script>
    <script src="./assets/javascript/notification.js"></script>
+   <script src="./assets/javascript/bettingLogic.js"></script>
+   <script src="./assets/javascript/feed-result.js"></script>
 
 </body>
 

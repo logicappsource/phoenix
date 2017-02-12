@@ -45,6 +45,7 @@ var sLink = "assets/api/api-update-profile.php?userFirstName="+sFtName+"&userLas
         });
     })
 
+    //Change Username 
     $('#btn-change-username').on('click', function() {
         var sUserName = $('#account-edit-new-username').val();
         
@@ -57,4 +58,22 @@ var sLink = "assets/api/api-update-profile.php?userFirstName="+sFtName+"&userLas
         }).done(function(username) {
               swal("Good job!", "You clicked the button!", "success")
         })
+    })
+
+
+    //Delete Account 
+    $('#btn-delete-account').on('click', function() {
+        var deleteAccount = "deleteAccount"; 
+
+        var sLinkT = "assets/api/api/account-edit.php?deleteAccount="+deleteAccount;
+
+        $.ajax({
+            "url": sLinkT,
+            "method":"GET",
+            "dataType": "JSON",
+            "cache": false 
+        }).done(function() {
+              swal("Bye!", "You Have deleted your account!", "success")
+        })
+
     })

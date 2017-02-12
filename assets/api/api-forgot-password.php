@@ -6,18 +6,42 @@ $sFile = file_get_contents('../data/user-account.json');
 $aJUser  = json_decode($sFile);
 
 
-    if(isset($_GET['emailForgot'])) {
-        $emailForgotten = $_GET['emailForgot'];
 
-        $toEmail = $emailForgotten;
+
+    if(isset($_GET['emailForgot'])) {
+
+        $emailForgot = $_GET['emailForgot'];
+
+        foreach($aJUser as $jUser) {
+
+             if($emailForgot == $jUser->userEmail){
+
+        $toEmail = $emailForgot;
         $subject = 'Forgotten password ';
-        $sHtmlPage = file_get_contents( "./data/email-temp.php" );  
+        $sHtmlPage = file_get_contents( "./data/email-temp.htm" );  
 
         $headers = "Content-Type: text/html; charset=UTF-8\r\n";
         
         mail($toEmail, $subject, $sHtmlPage, $headers);
-            echo "Email: {$emailForgotten}"; 
+            echo "Email: {$emailForgot}"; 
     }
+
+            
+
+        }
+
+
+
+
+
+      
+
+
+  
+
+  
+}
+
 
 
  ?> 

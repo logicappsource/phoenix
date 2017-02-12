@@ -72,8 +72,8 @@
         "userProfileTxt": "tedfsdfdsfsdfds"
     },
     {
-        "userName": "hey",
-        "userPassword": "hey",
+        "userName": "user",
+        "userPassword": "lol1",
         "userEmail": " hey",
         "userFirstName": "hey",
         "userLastName": "hey",
@@ -84,5 +84,33 @@
         "userIcon": "",
         "userProfileTxt": "",
         "userId": "51898318586a50e719ee05.93852607"
+    },
+    {
+        "userName": "e",
+        "userPassword": "lol",
+        "userEmail": "palleboy92@gmail.com",
+        "userFirstName": "patrick",
+        "userLastName": "saHLGREN",
+        "userBalance": 0,
+        "joinedteams": 0,
+        "verified": 0,
+        "staminapoints": 0,
+        "userIcon": "",
+        "userProfileTxt": "",
+        "userId": "173425161358a056fd2b92f2.41193372"
+    },
+    {
+        "userName": "newuser",
+        "userPassword": "jackpo5",
+        "userEmail": "logicappsource@gmail.com",
+        "userFirstName": "patrick",
+        "userLastName": "dsdads",
+        "userBalance": 0,
+        "joinedteams": 0,
+        "verified": 0,
+        "staminapoints": 0,
+        "userIcon": "",
+        "userProfileTxt": "",
+        "userId": "112468559958a057a508c8b2.12239369"
     }
 ]
